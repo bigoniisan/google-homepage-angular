@@ -11,6 +11,10 @@ import { OtherLinksComponent } from './other-links/other-links.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    LocationComponent,
+    OtherLinksComponent
   ]
 })
 export class FooterModule { }

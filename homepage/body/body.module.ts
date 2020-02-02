@@ -15,6 +15,11 @@ import { SearchButtonsComponent } from './search-buttons/search-buttons.componen
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    LogoComponent,
+    SearchBarComponent,
+    SearchButtonsComponent
   ]
 })
 export class BodyModule { }

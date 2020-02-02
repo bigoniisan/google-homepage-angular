@@ -12,6 +12,10 @@ import { RightSideComponent } from './right-side/right-side.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    LeftSideComponent,
+    RightSideComponent
   ]
 })
 export class NavigationBarModule { }
