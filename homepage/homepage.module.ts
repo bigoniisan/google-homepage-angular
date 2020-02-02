@@ -1,0 +1,19 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
+import { BodyComponent } from './body/body.component';
+import { FooterComponent } from './footer/footer.component';
+
+
+@NgModule({
+  declarations: [
+    NavigationBarComponent, 
+    BodyComponent, 
+    FooterComponent
+  ],
+  imports: [
+    CommonModule
+  ]
+})
+export class HomepageModule { }
