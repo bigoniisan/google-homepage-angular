@@ -5,7 +5,10 @@ import { LocationComponent } from './location/location.component';
 import { OtherLinksComponent } from './other-links/other-links.component';
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    LocationComponent,
+    OtherLinksComponent
+  ],
   imports: [
     CommonModule
   ]

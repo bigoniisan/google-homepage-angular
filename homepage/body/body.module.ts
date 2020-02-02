@@ -8,7 +8,11 @@ import { SearchButtonsComponent } from './search-buttons/search-buttons.componen
 
 
 @NgModule({
-  declarations: [LogoComponent, SearchBarComponent, SearchButtonsComponent],
+  declarations: [
+    LogoComponent, 
+    SearchBarComponent, 
+    SearchButtonsComponent
+  ],
   imports: [
     CommonModule
   ]
