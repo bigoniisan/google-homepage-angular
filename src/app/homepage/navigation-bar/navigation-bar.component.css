@@ -1,0 +1,42 @@
+#container {
+    border: 1px solid purple;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+}
+
+li {
+    float: left;
+    padding: 6px;
+    text-align: center;
+}
+
+li a {
+    background-color: none;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-left li a {
+    color: #404040;
+}
+
+.nav-right {
+    float: right;
+}
+
+.nav-right li a {
+    color: #212121;
+}
