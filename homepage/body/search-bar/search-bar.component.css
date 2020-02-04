@@ -1,0 +1,21 @@
+#container {
+    border: 1px solid blue;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -750%);
+
+    display: block;
+}
+
+input[type=submit] {
+    background-color: #F2F2F2;
+    color: #404040;
+
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+
+    /* margin: 10px; */
+}
